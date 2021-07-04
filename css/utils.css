@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Roboto:wght@300&display=swap');
+/* font-family: 'Dela Gothic One', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Roboto', sans-serif; */
+
+:root{
+    --main-bg-color:#bd6418;
+    --font1: 'Dela Gothic One', cursive;
+    --font2: 'Montserrat', sans-serif;
+    --font3: 'Baloo Bhaina 2', cursive;
+    --font4: 'Roboto', sans-serif;
+}
+
+.font-3{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.max-width{
+    width: 80vw;
+}
+
+.center{
+    text-align: center;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.max-width2{
+    width: 60vw;
+}
+
+/* Navigation Artical serach */
+.form-input{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 1px 18px;
+    margin: 10px;
+    font-family: var(--font3);
+    font-size: 15px;
+}
+
+
+/* Navigation button */
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px 24px;
+    margin: 10px;
+    background-color: #dedadd;
+    font-family: var(--font3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+/* Contact */
+
+.form-box input, textarea{
+    width: 60vw;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 6px;
+    padding: 0px 9px;
+    margin: 10px 0px;
+    font-family: var(--font3);
+    font-size: 17px;
+}
